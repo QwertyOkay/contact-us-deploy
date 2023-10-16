@@ -51,7 +51,7 @@ function ContactInfoBlock() {
           />
         </svg>
         <a href="/">
-          132 Dartmouth Street Boston, <br /> Massachusetts 02156 United States
+          132 Dartmouth Street Boston, Massachusetts 02156 United States
         </a>
       </li>
     </ul>

@@ -103,11 +103,24 @@
             font-size: 16px;
           }
         }
+
+        // a:last-child {
+        //   width: 143px;
+        //   @media screen and (min-width: 1200px) {
+        //     // width: auto;
+        //   }
+        // }
       }
     }
   }
 }
 
+div.footerList:first-of-type ul li:last-child a {
+  width: 143px;
+  @media screen and (min-width: 1200px) {
+    width: 282px;
+  }
+}
 .footerLocation {
   width: 143px;
   @media screen and (min-width: 1200px) {
@@ -119,6 +132,8 @@
   margin-bottom: 10px;
   @media screen and (min-width: 1200px) {
     margin-right: 48px;
+    margin-bottom: 0px;
+    // width: 282px;
   }
 }
 
@@ -136,7 +151,7 @@
 
 .footerList:last-child {
   @media screen and (min-width: 1200px) {
-    margin-right: 99px;
+    margin-right: 96px;
   }
 }
 

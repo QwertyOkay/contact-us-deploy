@@ -18,80 +18,84 @@ function Footer() {
                   <h3>Reach us</h3>
                   <Contacts />
                 </div>
-
                 <div className={styles.footerList}>
                   <h3>Company</h3>
-
-                  <li>
-                    <a href="/">About</a>
-                  </li>
-                  <li>
-                    <a href="/">Contact</a>
-                  </li>
-                  <li>
-                    <a href="/">Blogs</a>
-                  </li>
+                  <ul>
+                    <li>
+                      <a href="/">About</a>
+                    </li>
+                    <li>
+                      <a href="/">Contact</a>
+                    </li>
+                    <li>
+                      <a href="/">Blogs</a>
+                    </li>
+                  </ul>
                 </div>
 
                 <div className={styles.footerList}>
                   <h3>Legal</h3>
-
-                  <li>
-                    <a href="/">Privacy Policy</a>
-                  </li>
-                  <li>
-                    <a href="/">Terms & Services</a>
-                  </li>
-                  <li>
-                    <a href="/">Terms of Use</a>
-                  </li>
-                  <li>
-                    <a href="/">Refund Policy</a>
-                  </li>
+                  <ul>
+                    <li>
+                      <a href="/">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="/">Terms & Services</a>
+                    </li>
+                    <li>
+                      <a href="/">Terms of Use</a>
+                    </li>
+                    <li>
+                      <a href="/">Refund Policy</a>
+                    </li>
+                  </ul>
                 </div>
 
                 <div className={styles.footerList}>
                   <h3>Quick Links</h3>
-
-                  <li>
-                    <a href="/">Techlabz Keybox</a>
-                  </li>
-                  <li>
-                    <a href="/">Downloads</a>
-                  </li>
-                  <li>
-                    <a href="/">Forum</a>
-                  </li>
+                  <ul>
+                    <li>
+                      <a href="/">Techlabz Keybox</a>
+                    </li>
+                    <li>
+                      <a href="/">Downloads</a>
+                    </li>
+                    <li>
+                      <a href="/">Forum</a>
+                    </li>
+                  </ul>
                 </div>
               </nav>
 
               <div className={styles.footerBox}>
-                <li>
-                  <h4 className={styles.footerTitle}>Join Our Newsletter</h4>
-                </li>
-                <li>
-                  <form className={styles.footerForm}>
-                    <input
-                      type="email"
-                      autoComplete="on"
-                      name="email"
-                      placeholder="Your email address"
-                      className={styles.input}
-                      pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$"
-                    ></input>
+                <ul>
+                  <li>
+                    <h4 className={styles.footerTitle}>Join Our Newsletter</h4>
+                  </li>
+                  <li>
+                    <form className={styles.footerForm}>
+                      <input
+                        type="email"
+                        autoComplete="on"
+                        name="email"
+                        placeholder="Your email address"
+                        className={styles.input}
+                        pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$"
+                      ></input>
 
-                    <button type="submit" className={styles.footerButton}>
-                      Subscribe
-                    </button>
-                  </form>
-                </li>
+                      <button type="submit" className={styles.footerButton}>
+                        Subscribe
+                      </button>
+                    </form>
+                  </li>
 
-                <li>
-                  <p className={styles.footerNote}>
-                    * Will send you weekly updates for your better tool
-                    management.
-                  </p>
-                </li>
+                  <li>
+                    <p className={styles.footerNote}>
+                      * Will send you weekly updates for your better tool
+                      management.
+                    </p>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

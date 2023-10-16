@@ -50,22 +50,6 @@
   }
 }
 
-// .formBox {
-//   display: flex;
-//   align-items: center;
-//   flex-direction: column;
-//   margin-top: 30px;
-//   width: 100%;
-//   padding: 0px 21px;
-
-//   @media screen and (min-width: 1200px) {
-//     flex-wrap: wrap;
-//     width: 100%;
-//     margin: 0px;
-//     padding: 0px;
-//   }
-// }
-
 .formTitle {
   color: var(--color-white);
   font-family: Poppins;
@@ -134,8 +118,10 @@
     }
   }
   a:last-child {
+    width: 221px;
     @media screen and (min-width: 1200px) {
       text-align: start;
+      width: 288px;
     }
   }
 }
