@@ -58,7 +58,7 @@
   line-height: normal;
 
   @media screen and (min-width: 1200px) {
-    color: #1f1f1f;
+    color: var(--color-black--variant);
 
     font-family: Roboto;
     font-size: 16px;
