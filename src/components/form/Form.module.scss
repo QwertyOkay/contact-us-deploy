@@ -58,3 +58,18 @@ form .label:nth-child(2n),
 .inputField:nth-child(odd) .label {
   color: #8d8d8d;
 }
+
+input {
+  -webkit-appearance: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+}
