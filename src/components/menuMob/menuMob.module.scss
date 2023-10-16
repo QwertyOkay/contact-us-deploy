@@ -16,7 +16,7 @@
   display: block;
   width: 30px;
   height: 3px;
-  background-color: #fff;
+  background-color: var(--color-white);
 }
 
 .open .bar:nth-child(1) {
@@ -40,7 +40,7 @@
   align-items: center;
   z-index: 999;
   background-color: var(--color-black);
-  color: #fff;
+  color: var(--color-white);
 
   height: 476px;
   border-bottom-right-radius: 5px;
@@ -50,7 +50,7 @@
 }
 
 .burgerNavItem a {
-  color: #fff;
+  color: var(--color-white);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -110,7 +110,7 @@
 }
 
 .logoHD {
-  color: #fff;
+  color: var(--color-white);
   font-family: Inter;
   font-size: 18px;
   font-style: normal;

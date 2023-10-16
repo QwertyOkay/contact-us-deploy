@@ -62,7 +62,7 @@
       }
 
       h3 {
-        color: #fff;
+        color: var(--color-white);
         font-feature-settings: "clig" off, "liga" off;
         font-family: Poppins;
         font-size: 16px;
@@ -91,7 +91,7 @@
         }
 
         a {
-          color: #fff;
+          color: var(--color-white);
           font-family: Poppins;
           font-size: 12px;
           font-style: normal;
@@ -176,7 +176,7 @@
 }
 
 .footerTitle {
-  color: #fff;
+  color: var(--color-white);
   font-feature-settings: "clig" off, "liga" off;
   font-family: Poppins;
   font-size: 16px;
@@ -201,7 +201,7 @@
 
   input {
     background: #1a1a1a;
-    color: #fff;
+    color: var(--color-white);
     padding-left: 10px;
     border-radius: 4px;
   }
@@ -226,13 +226,13 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  color: #fff;
+  color: var(--color-white);
   border-radius: 0 4px 4px 0;
 }
 
 .footerNote {
   width: 277px;
-  color: #fff;
+  color: var(--color-white);
   opacity: 0.5;
   font-family: Manrope;
   font-size: 13px;

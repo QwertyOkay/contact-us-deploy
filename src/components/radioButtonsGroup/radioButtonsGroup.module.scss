@@ -68,7 +68,7 @@
   }
 }
 
-.subjectRadioGroup input[type='radio'] {
+.subjectRadioGroup input[type="radio"] {
   margin-right: 10px;
 }
 
@@ -80,7 +80,7 @@
   padding: 9.603px 30.729px;
   gap: 6.402px;
   margin: 25px 0px 5px 0px;
-  color: #fff;
+  color: var(--color-white);
   font-family: Poppins;
   text-align: center;
   font-size: 12.949px;
@@ -101,7 +101,7 @@
     gap: 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.12);
-    color: #fff;
+    color: var(--color-white);
 
     text-align: center;
     font-size: 16px;
@@ -109,7 +109,7 @@
 }
 
 /* Hidden SVG */
-input[type='radio'] {
+input[type="radio"] {
   position: absolute;
   opacity: 0;
   width: 0;
@@ -117,24 +117,24 @@ input[type='radio'] {
 }
 
 /* Default SVG */
-input[type='radio'] + label::before {
-  content: '';
+input[type="radio"] + label::before {
+  content: "";
   display: inline-block;
   width: 13px;
   height: 13px;
-  background: url('../../images/Radio.svg') center center no-repeat;
+  background: url("../../images/Radio.svg") center center no-repeat;
   background-size: contain;
   cursor: pointer;
   margin-right: 10px;
 }
 
 /* Checked SVG */
-input[type='radio']:checked + label::before {
-  content: '';
+input[type="radio"]:checked + label::before {
+  content: "";
   display: inline-block;
   width: 13px;
   height: 13px;
-  background: url('../../images/RadioChecked.svg') center center no-repeat;
+  background: url("../../images/RadioChecked.svg") center center no-repeat;
   background-size: contain;
   cursor: pointer;
   margin-right: 10px;
@@ -168,7 +168,7 @@ input[type='radio']:checked + label::before {
   padding: 9.603px 30.729px;
   gap: 6.402px;
   margin: 25px 0px 5px 0px;
-  color: #fff;
+  color: var(--color-white);
   font-family: Poppins;
   text-align: center;
   font-size: 12.949px;
@@ -189,7 +189,7 @@ input[type='radio']:checked + label::before {
     gap: 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.12);
-    color: #fff;
+    color: var(--color-white);
 
     text-align: center;
     font-size: 16px;
