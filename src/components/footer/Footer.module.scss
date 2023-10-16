@@ -24,7 +24,7 @@
 }
 
 .footerLogoHolder {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid var(--color-white);
   padding: 19px 55px 20px 84px;
   margin-bottom: 30px;
 
@@ -34,7 +34,7 @@
 }
 
 .footerLogo {
-  color: #fff;
+  color: var(--color-white);
   font-family: Inter;
   font-size: 36px;
   font-style: normal;
