@@ -20,7 +20,7 @@
 
 .label,
 .labelBlack {
-  color: #000;
+  color: var(--color-black);
   font-family: Poppins;
   font-size: 12px;
   font-style: normal;
@@ -42,13 +42,13 @@ form .label:nth-child(2n),
   font-weight: 500;
   font-size: 14px;
   transition: border-bottom-color 0.3s;
-  color: #000;
+  color: var(--color-black);
   padding: 5px 0 10px 0;
   height: 35px;
 }
 
 .inputFocused {
-  border-bottom-color: #000;
+  border-bottom-color: var(--color-black);
 }
 
 .input::placeholder {
