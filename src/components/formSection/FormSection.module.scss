@@ -1,0 +1,22 @@
+.formContainer {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.formBox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 100%;
+  padding: 0px 21px;
+
+  @media screen and (min-width: 1200px) {
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+}

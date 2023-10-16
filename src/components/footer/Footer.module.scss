@@ -1,0 +1,250 @@
+@import "../../styles/vars.scss";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+.footer {
+  background: var(--color-black);
+  height: 860px;
+  min-width: 360px;
+  margin: 50px auto 0px auto;
+
+  @media screen and (min-width: 1280px) {
+    height: 479px;
+  }
+}
+
+.footerContainer {
+  padding: 0px 20px;
+  max-width: 360px;
+  margin: 0px auto;
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1280.5px;
+    padding: 0px;
+  }
+}
+
+.footerLogoHolder {
+  border-bottom: 1px solid #fff;
+  padding: 19px 55px 20px 84px;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 80px 0px 45px 0px;
+  }
+}
+
+.footerLogo {
+  color: #fff;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  .footerNav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @media screen and (min-width: 1200px) {
+      justify-content: flex-start;
+    }
+
+    .footerList {
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      h3 {
+        color: #fff;
+        font-feature-settings: "clig" off, "liga" off;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        margin-bottom: 20px;
+
+        @media screen and (min-width: 1200px) {
+          font-size: 18px;
+        }
+      }
+
+      li {
+        margin: 5px 0;
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+
+        @media screen and (min-width: 1200px) {
+          margin: 24px 0;
+          flex-direction: row;
+          gap: 25px;
+        }
+
+        a {
+          color: #fff;
+          font-family: Poppins;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-decoration: none;
+
+          @media screen and (min-width: 1200px) {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.footerLocation {
+  width: 143px;
+  @media screen and (min-width: 1200px) {
+    width: 282px;
+  }
+}
+
+.footerList:first-child {
+  margin-bottom: 10px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 48px;
+  }
+}
+
+.footerList:nth-child(2),
+.footerList:nth-child(3) {
+  @media screen and (min-width: 1200px) {
+    margin-right: 60px;
+  }
+}
+
+.footerList h3:nth-child(2n) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footerList:last-child {
+  @media screen and (min-width: 1200px) {
+    margin-right: 96px;
+  }
+}
+
+.footerLinks {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.Footer_footerNav__CcKox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  ul {
+    width: 48%;
+  }
+
+  ul:nth-child(2n) {
+    margin-left: auto;
+  }
+}
+
+.footerBox {
+  border-radius: 5px;
+  background: #0d0d0d;
+  width: 320px;
+  height: 175px;
+  margin-top: 20px;
+  padding: 17px 29px 14px 14px;
+
+  @media screen and (min-width: 1200px) {
+    margin-top: -11px;
+    width: 304px;
+    height: 184px;
+  }
+}
+
+.footerTitle {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 23px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
+}
+
+.footerForm {
+  width: 277px;
+  height: 39px;
+  border-radius: 4px;
+  background: #1a1a1a;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  input {
+    background: #1a1a1a;
+    color: #fff;
+    padding-left: 10px;
+    border-radius: 4px;
+  }
+}
+
+.footerForm:placeholder-shown {
+  color: #616161;
+  padding-left: 10px;
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footerButton {
+  width: 105px;
+  height: 39px;
+  background: var(--color-black);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+}
+
+.footerNote {
+  width: 277px;
+  color: #fff;
+  opacity: 0.5;
+  font-family: Manrope;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footerHolder {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+  }
+}

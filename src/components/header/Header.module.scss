@@ -1,0 +1,65 @@
+@import "../../styles/vars.scss";
+@import "../../styles/global.scss";
+
+.navBlock {
+  min-height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  display: none;
+
+  @media screen and (min-width: 1280px) {
+    column-gap: 35px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.headerLogo {
+  color: #000;
+
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.headerDesk {
+  display: none;
+}
+
+.link {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 600;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.linkPlay {
+  width: 147px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 52px;
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 4px 2px rgb(0 0 0 / 15%);
+}
+
+.notice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}

@@ -1,0 +1,60 @@
+.inputField {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  height: 55px;
+
+  @media screen and (min-width: 1200px) {
+    width: calc(50% - 20px);
+    margin-bottom: 45px;
+    max-width: 278px;
+  }
+}
+
+.inputField:first-child,
+.inputField:nth-child(3) {
+  @media screen and (min-width: 1200px) {
+    margin-right: 39px;
+  }
+}
+
+.label,
+.labelBlack {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+form .label:nth-child(2n),
+.labelGray {
+  color: #8d8d8d;
+}
+
+.input,
+.inputFocused {
+  width: 278px;
+  border: none;
+  border-bottom: 1px solid #8d8d8d;
+  outline: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: border-bottom-color 0.3s;
+  color: #000;
+  padding: 5px 0 10px 0;
+  height: 35px;
+}
+
+.inputFocused {
+  border-bottom-color: #000;
+}
+
+.input::placeholder {
+  color: #8d8d8d;
+}
+
+.inputField:nth-child(odd) .label {
+  color: #8d8d8d;
+}
